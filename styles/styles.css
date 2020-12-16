@@ -1,0 +1,61 @@
+/*buttons that are floating right*/
+.right {
+  float: right;
+  margin: 5px 10px;
+}
+
+body {
+  margin: 0 100px;
+}
+
+div .body {
+  width: 50%;
+}
+
+h1 {
+  display: inline;
+  margin: 5px 10px;
+}
+
+/*the body div*/
+.body {
+  border: solid 5px orange;
+  border-radius: 10px;
+}
+
+/*to centre an element*/
+.centre {
+  margin: auto;
+  height: auto;
+}
+
+
+
+.option {
+  background-color: rgb(105, 184, 230);
+}
+
+/*positioning the questions*/
+.margin-40-60 {
+  margin-bottom: 40px;
+  margin-top: 60px;
+  text-align: center;
+}
+
+.option:hover, .showAnswers {
+  cursor: pointer;
+}
+
+/*font size for any question and its options*/
+span,
+.question {
+  font-size: 45px;
+}
+
+span {
+    color: white;
+}
+
+.d-block {
+    margin: 0 auto;
+}
